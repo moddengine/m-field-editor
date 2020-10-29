@@ -1,0 +1,293 @@
+{"fields": [
+        {
+            "name": "personfirst",
+            "label": "First Name",
+            "hint": "This persons given name",
+            "type": "text",
+            "group": "General",
+            "rules": [
+                [
+                    "required"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "personlast",
+            "label": "Last Name",
+            "hint": "This persons surname",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "persontitle",
+            "label": "Title",
+            "hint": "The Persons title, eg Dr, Mr, Mrs, Ms, Master, etc.",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "personsuffix",
+            "label": "Suffix",
+            "hint": "This persons suffix, eg BS, MD, PhD, etc",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "personphone",
+            "label": "Phone",
+            "hint": "This persons phone number",
+            "type": "text",
+            "group": "General",
+            "rules": [
+                [
+                    "phone",
+                    "AU"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "personemail",
+            "label": "Email",
+            "hint": "This persons email address",
+            "type": "text",
+            "group": "General",
+            "rules": [
+                [
+                    "email"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "personposition",
+            "label": "Position",
+            "hint": "This persons position (Director, Secretary, President, etc.",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "personbirthday",
+            "label": "Birth Date",
+            "hint": "This persons birth date",
+            "type": "text",
+            "group": "General",
+            "rules": [
+                [
+                    "date"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "tags",
+            "label": "Tags",
+            "hint": "List of tags, these can be used to identify and filter resources. Can only contain letters, numbers and dashes. Must start with a letter",
+            "type": "taglist",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "summary",
+            "label": "Summary",
+            "hint": "Short description of item, will appear as short text of google search results",
+            "type": "memo",
+            "group": "General",
+            "rules": [
+                [
+                    "lengthhint",
+                    "48",
+                    "160"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "code",
+            "label": "Code",
+            "hint": "Code field for any unique identifiers for these items",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "titlebar",
+            "label": "Title Bar",
+            "hint": "Browser Title bar, will also show as heading in google search results",
+            "type": "text",
+            "group": "General",
+            "rules": [
+                [
+                    "lengthhint",
+                    "12",
+                    "60"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "sorder",
+            "label": "Sort Order",
+            "hint": "This allows the order to be re-arranged in the event the alphabetic sort of the title is inadequate, biggest value first in list",
+            "type": "number",
+            "group": "General",
+            "rules": [
+                [
+                    "required"
+                ],
+                [
+                    "integer"
+                ],
+                [
+                    "default",
+                    "int",
+                    "0"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "alias",
+            "label": "URL Alias",
+            "hint": "This field will be used instead of the name & id as the URL to access this item",
+            "type": "text",
+            "group": "General",
+            "rules": [
+                [
+                    "regex",
+                    "/^[a-zA-Z0-9-]*$/"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_website",
+            "label": "website",
+            "hint": "",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_facebook",
+            "label": "facebook",
+            "hint": "",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_instagram",
+            "label": "instagram",
+            "hint": "",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_pinterest",
+            "label": "pinterest",
+            "hint": "",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_twitter",
+            "label": "twitter",
+            "hint": "",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_youtube",
+            "label": "youtube",
+            "hint": "",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_blog",
+            "label": "blog",
+            "hint": "",
+            "type": "text",
+            "group": "General",
+            "rules": [],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_aboutme",
+            "label": "aboutme",
+            "hint": "",
+            "type": "data",
+            "group": "General",
+            "rules": [
+                [
+                    "html",
+                    "simple"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_inspiration",
+            "label": "inspiration",
+            "hint": "",
+            "type": "data",
+            "group": "General",
+            "rules": [
+                [
+                    "html",
+                    "simple"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "attr_education",
+            "label": "education",
+            "hint": "",
+            "type": "data",
+            "group": "General",
+            "rules": [
+                [
+                    "html",
+                    "simple"
+                ]
+            ],
+            "__typename": "MDocFieldType"
+        },
+        {
+            "name": "data",
+            "label": "Page Builder",
+            "hint": "",
+            "type": "data",
+            "group": "Page Editor",
+            "rules": [
+                [
+                    "jsondata",
+                    "mebuild2"
+                ]
+            ]
+        }
+    ]
+}

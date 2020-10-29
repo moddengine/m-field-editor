@@ -1,0 +1,117 @@
+{
+    "maxhang": {
+        "type": "text",
+        "label": "Maximum Paintings Entries"
+    },
+    "maxstand": {
+        "type": "text",
+        "label": "Maximum Sculptures Entries"
+    },
+    "maxentry": {
+        "type": "text",
+        "label": "Maximum Total Entries"
+    },
+    "sendin": {
+        "type": "text",
+        "label": "Send in Days"
+    },
+    "collect": {
+        "type": "text",
+        "label": "Collection Days"
+    },
+    "colour": {
+        "type": "multiselect",
+        "label": "Colour Tone",
+        "choices": [
+            "Neutrals",
+            "Cool Tones",
+            "Warm Tones",
+            "Darker Tones",
+            "Subtle Colours",
+            "Vibrant Colours",
+            "Monochromatic"
+        ]
+    },
+    "orientation": {
+        "type": "multiselect",
+        "label": "Orientation",
+        "choices": [
+            "Square",
+            "Vertical",
+            "Horizontal"
+        ]
+    },
+    "genre": {
+        "type": "select",
+        "label": "Genre",
+        "choices": [
+            "",
+            "Abstract",
+            "Contemporary",
+            "Expressionism",
+            "Impressionism",
+            "Realism",
+            "Surrealism",
+            "Other"
+        ]
+    },
+    "medium": {
+        "type": "multiselect",
+        "label": "Medium",
+        "choices": [
+            "Acrylic",
+            "Aerosol",
+            "Charcoal",
+            "Collage",
+            "Digital",
+            "Drawing",
+            "Giclee Print",
+            "Gouache",
+            "Ink",
+            "Lino Cut Print",
+            "Mixed Media",
+            "Oil",
+            "Pastel",
+            "Sculpture",
+            "Watercolour",
+            "Woodblock Print",
+            "Works on Paper"
+        ]
+    },
+    "website": {
+        "type": "text",
+        "label": "Website URL"
+    },
+    "facebook": {
+        "type": "text",
+        "label": "Facebook URL"
+    },
+    "instagram": {
+        "type": "text",
+        "label": "Instagram URL"
+    },
+    "pinterest": {
+        "type": "text",
+        "label": "Pinterest URL"
+    },
+    "twitter": {
+        "type": "text",
+        "label": "Twitter URL"
+    },
+    "youtube": {
+        "type": "text",
+        "label": "Youtube URL"
+    },
+    "blog": {
+        "type": "text",
+        "label": "Blog URL"
+    },
+    "aboutme": {
+        "type": "simplerich",
+        "label": "About Me"
+    },
+    "education": {
+        "type": "simplerich",
+        "label": "Education"
+    }
+}
