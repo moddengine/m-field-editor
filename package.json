@@ -10,6 +10,7 @@
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.18",
     "core-js": "^3.6.5",
+    "vee-validate": "^3.4.3",
     "vue": "^2.6.11",
     "vuetify": "^2.2.11"
   },
